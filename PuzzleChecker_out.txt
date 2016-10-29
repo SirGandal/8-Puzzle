@@ -92,5 +92,5 @@ puzzle45.txt: 45 | 12.871236 seconds
 puzzle46.txt: 46 | 6.8415856 seconds
 puzzle47.txt: 47 | 139.01219 seconds
 puzzle48.txt: 48 | 29.104725 seconds
-puzzle49.txt: 40 | OutOfMemoryError
-puzzle50.txt: 50 | 138.40756 seconds
+puzzle49.txt: 49 | OutOfMemoryError
+---

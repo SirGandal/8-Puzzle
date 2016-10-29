@@ -142,4 +142,4 @@ puzzle4x4-45.txt: 45 | 97.442955 seconds
 puzzle4x4-46.txt: 46 | 77.95158 seconds
 puzzle4x4-47.txt: 47 | 90.60449 seconds
 puzzle4x4-48.txt: 48 | 72.02925 seconds
-puzzle4x4-49.txt: 49 | OutOfMemoryError
+puzzle4x4-49.txt: OutOfMemoryError

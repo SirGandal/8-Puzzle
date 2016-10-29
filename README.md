@@ -44,6 +44,7 @@ puzzle4x4-48.txt: 48 | 72.02925 seconds   ->  puzzle4x4-48.txt: 48 | 101.53501 s
 
 
 ## Assessment Summary
+Note that the submitted version includes only the first improvement.  
 Compilation:  PASSED  
 Style:        PASSED  
 Findbugs:     No potential bugs found.  
@@ -55,6 +56,5 @@ Timing:       17/17 tests passed
 
 Aggregate score: 100.00% [Correctness: 65%, Memory: 10%, Timing: 25%, Style: 0%]
 
-Note: The submitted version includes just the first improvement.
 ------
 (Note that for this project to work a reference to [algs4.jar](http://algs4.cs.princeton.edu/code/algs4.jar) has to be added.) 

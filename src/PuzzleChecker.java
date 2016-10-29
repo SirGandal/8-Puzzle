@@ -33,12 +33,18 @@ public class PuzzleChecker {
         tiles[i][j] = in.readInt();
       }
     }
+    
+    // Board initial = new Board(tiles);
+    //
+    // long startTime = System.nanoTime();
+    // Solver solver = new Solver(initial);
+    // long estimatedTime = System.nanoTime() - startTime;
 
     // solve the slider puzzle
-    Board initial = new Board(tiles);
+    CharBoard initial = new CharBoard(tiles);
 
     long startTime = System.nanoTime();
-    Solver solver = new Solver(initial);
+    CharSolver solver = new CharSolver(initial);
     long estimatedTime = System.nanoTime() - startTime;
 
     StdOut.println(filename + ": " + solver.moves() + " | " + (float) estimatedTime / 1000000000 + " seconds");

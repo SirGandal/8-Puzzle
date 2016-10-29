@@ -12,7 +12,7 @@ public class PuzzleChecker {
 
     if (listOfFiles != null) {
       for (int f = 0; f < listOfFiles.length; f++) {
-        if (listOfFiles[f].isFile()) {
+        if (listOfFiles[f].isFile() && listOfFiles[f].getName().endsWith(".txt")) {
           String filename = listOfFiles[f].getName();
           checkFile(args[0] + filename);
         }

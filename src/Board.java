@@ -30,6 +30,11 @@ public class Board {
   public int dimension() {
     return size;
   }
+  
+  // for visualizer
+  public int getFromRowCol(int i, int j) {
+    return blocks[i * size + j];
+  }
 
   // number of blocks out of place
   public int hamming() {

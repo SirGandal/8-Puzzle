@@ -22,8 +22,10 @@ public class Solver {
     @Override
     public int compare(SearchNode s1, SearchNode s2) {
 
-      int s1Priority = s1.moves + s1.board.manhattan(); 
-      int s2Priority = s2.moves + s2.board.manhattan();
+      int s1Manhattan = s1.board.manhattan();
+      int s2Manhattan = s2.board.manhattan();
+      int s1Priority = s1.moves + s1Manhattan; 
+      int s2Priority = s2.moves + s2Manhattan;
       
       if (s1Priority < s2Priority) {
         return -1;
@@ -32,7 +34,15 @@ public class Solver {
       if (s1Priority > s2Priority) {
         return 1;
       }
+      
+      if (s1Manhattan < s2Manhattan) {
+        return -1;
+      }
 
+      if (s1Manhattan > s2Manhattan) {
+        return 1;
+      }
+      
       return 0;
     }
   }
